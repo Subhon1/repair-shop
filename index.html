@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Repairshop</title>
+	 <!-- add bootstrap css file -->
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">    
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+    <style>
+        table {
+            border: solid 1px blue;
+            border-collapse: collapse;
+            width: 100%;
+            height: 100px;
+        }
+
+        td, th {
+            border: solid 1px #F97300;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+	   <a class="navbar-brand" href="#"><img src="images/bat.png" class="img-fluid"></a>
+	   <a class="navbar-brand" href="admi.html"><img src="images/admin.png" class="img-fluid"></a>
+
+	  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggbottomle navigation ">
+
+	  	
+	     <span class="navbar-toggler-icon "><img src="images/men.png" class="img-fluid"></span>
+
+
+	  </button>
+
+	  	<!--Кнопка для админа-->
+	  	
+
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">О НАС</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="services" href="#">УСЛУГИ</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contacts" href="#">КОНТАКТЫ</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">ОБРАТНАЯ СВЯЗЬ</a>
+	      </li>
+	    </ul>
+	    
+	  </div>
+</nav>
+<!-- header -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1>
+  		Ремонт цифровой техники
+  		<p>
+  		Быстрый и качественный ремонт всех видов цифровой техники с гарантией и бесплатной диагностикой..</p>
+   	</h1>
+   	 <!-- Material input -->
+<div class="input_id">
+	<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Введите идентификационный номер для проверки статуса">
+  <div class="input-group-append">
+    <button class="btn btn-success" type="submit">Go</button>
+  </div>
+</div>
+   </div>
+
+
+
+
+  
+ </header>
+
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">О нас</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/rick.png" class="img-fluid">
+				
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+			  
+				<h3>OUT ― Ремонт цифровой техники </h3>
+				<p>
+				   Сервис по ремонту и обслуживанию цифровых устройств: смартфонов, планшетов, персональных компьютеров, ноутбуков, моноблоков и принтеров.
+				   С клиентами общаются инженеры с высшим образованием и стажем работы в сервисных центрах не менее пяти лет, которые могут самостоятельно починить любое устройство.
+				   Если речь идет о небольшой проблеме в работе устройства, которую вы можете решить самостоятельно, специалист бесплатно подскажет, что сделать и как. Если проблема кроется в программном обеспечении (вирусы, отсутствие нужных драйверов и тому подобное) и может быть решена удаленно (по интернету), инженер подключится к вашему устройству и устранит ее. В других случаях он расскажет, какой ремонт потребуется и сколько он будет стоить.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div class="services" id="services">
+     <h1 class="text-center">Услуги</h1>
+	<div class="container">
+		<div class="uslugi">
+			<table class="table">
+				<table class="table">
+				  <thead class="thead-light">
+				    <tr>
+				      <th scope="col">№</th>
+				      <th scope="col">Услуга</th>
+				      <th scope="col">Цена</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">1</th>
+				      <td>Восстановление ОС</td>
+				      <td>1200</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">2</th>
+				      <td>Диагностика (тестирование) жесткого диска и оперативной памяти ПК, на предмет ошибок</td>
+				      <td>300</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">3</th>
+				      <td>Замена термопасты</td>
+				      <td>800</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">4</th>
+				      <td>Сложная очистка ОС от вирусов, всплывающих и рекламных окон</td>
+				      <td>800</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">5</th>
+				      <td>Установка/замена блока питания в ПК</td>
+				      <td>300</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">6</th>
+				      <td>Замена матрицы на ноутбуке/нетбуке</td>
+				      <td>800</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">7</th>
+				      <td>Оптимизация операционной системы (чистка реестра, временных файлов, автозагрузки) на ноутбуке</td>
+				      <td>500</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">8</th>
+				      <td>Установка/замена шлейфа в ноутбуке</td>
+				      <td>800</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">9</th>
+				      <td>Установка/замена клавиатуры на ноутбуке</td>
+				      <td>500</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">10</th>
+				      <td>Чистка системы охлаждения ноутбука от пыли, с неполной разборкой</td>
+				      <td>600</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">11</th>
+				      <td>Чистка системы охлаждения ноутбука от пыли, с полной разборкой</td>
+				      <td>1000</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">12</th>
+				      <td>Замена USB-разъема на ноутбуке (без учёта запчастей)</td>
+				      <td>1300</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">13</th>
+				      <td>Диагностика ноутбука, с частичной или полной разборкой, на предмет неисправности</td>
+				      <td>БЕСПЛАТНО</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">14</th>
+				      <td>Ремонт/замена лампы подсветки</td>
+				      <td>1500</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">15</th>
+				      <td>Ремонт/замена петлей ноутбука</td>
+				      <td>1200</td>
+				    </tr>
+				  </tbody>
+				</table>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Team section -->
+<div class="contacts" id="contacts">
+	<div class="container">
+	   <h1 class="text-center">Контакты</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/gleb.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	<p>Глеб</p>
+				 	<p>+79227017514</p>
+				 </div>
+				<span class="text-muted">Front End Developer</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/i.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	<p>Субхон</p>
+				 	<p>+79507393828</p>
+				 </div>
+				<span class="text-muted">Уборщик</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/musk.png" class="img-fluid" alt="team">
+				<div class="des">
+				 	<p>Илон</p>
+				 	<p>twitter.com/elonmusk</p>
+				 </div>
+				<span class="text-muted">Инженер</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/rick.jpg" class="img-fluid" alt="team">
+				 <div class="des">
+				 	<p>Рик</p>
+				 	<p>Измерения С-137</p>
+				 </div>
+				<span class="text-muted">Администратор</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Обратная связь</h1>	
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+				   </div>
+				   <div class="form-group">
+				   	 <input type="email" class="form-control form-control-lg" placeholder="subxonk@inbox.ru" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg">
+				   	 	
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- add Javasscript file from js file -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>
